@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+
+$bgColor: #1abc9c;
+$lightColor: #f0f3f2;
+$ratingColor: #2c3e50;
+
+body {
+  font-family: "Gugi", cursive;
+  box-sizing: border-box;
+}
+
+.layer {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  opacity: 0;
+  border: none;
+  background-color: $bgColor;
+}
+
+.navlink:hover {
+  background-color: $bgColor !important;
+}
+
+.navlink:active {
+  background-color: $bgColor !important;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.card {
+  border: none;
+
+  &:hover .layer {
+    opacity: 0.8;
+    transition: all 0.8s;
+  }
+}
+
+.home,
+.about {
+  background-color: $bgColor;
+}
+
+.btnsub {
+  background-color: $bgColor;
+
+  &:hover {
+    background-color: $bgColor;
+  }
+}
+
+.circle {
+  border: 1px solid $lightColor;
+  border-radius: 50%;
+}
+
+.line {
+  height: 4px;
+  width: 80px;
+}
+
+footer {
+  background-color: $ratingColor !important;
+}
+
+nav {
+  background-color: $ratingColor;
+}
