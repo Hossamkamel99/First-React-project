@@ -13,10 +13,10 @@ export default function Footer() {
                     <div className='icons col-md-4 text-center'>
                         <h3 className=''>AROUND THE WEB</h3>
                         <ul className='footericon list-unstyled fa-2x d-flex justify-content-center'>
-                            <li className='p-1'><i className="p-2 circle fa-brands fa-facebook"></i></li>
-                            <li className='p-1'><i className="p-2 circle fa-brands fa-twitter"></i></li >
-                            <li className='p-1'><i className="p-2 circle fa-brands fa-linkedin-in"></i></li>
-                            <li className='p-1'><i className="p-2 circle fa-solid fa-globe"></i></li>
+                            <li className='p-1'><i className="bic p-2 circle fa-brands fa-facebook"></i></li>
+                            <li className='p-1'><i className="bic p-2 circle fa-brands fa-twitter"></i></li >
+                            <li className='p-1'><i className="bic p-2 circle fa-brands fa-linkedin-in"></i></li>
+                            <li className='p-1'><i className="bic p-2 circle fa-solid fa-globe"></i></li>
                         </ul>
                     </div>
                     <div className='col-md-4 text-center'>
